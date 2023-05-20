@@ -1,0 +1,71 @@
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129591918-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129591918-1');
+</script>
+<title>Planning to Chronicle: Optimal Policies for Narrative Observation of Unpredictable Events</title>
+<link rel="stylesheet" href="defaultstyle.css" type="text/css">
+</head>
+<body>
+<h2>Planning to Chronicle: Optimal Policies for Narrative Observation of Unpredictable Events</h2>
+Hazhar Rahmani, Dylan A. Shell, Jason M. O'Kane. <br> <i>Preprint</i>, 2021.
+<h3>Abstract</h3>
+An important class of applications entails a robot scrutinizing, monitoring, or
+recording the evolution of an uncertain time-extended process. This sort of
+situation leads to an interesting family of active perception problems that can be cast as planning problems in which the robot
+is limited in what it sees and must, thus, choose what to pay attention to.
+The distinguishing characteristic of this setting is that the robot has
+influence over what it captures via its sensors, but exercises no causal
+authority over the process evolving in the world.  As such, the robot's objective is to
+observe the underlying process and to produce a `chronicle' of occurrent
+events, subject to a goal specification of the sorts of event sequences that
+may be of interest. This paper examines variants of such problems in which the
+robot aims to collect sets of observations to meet a rich specification of
+their sequential structure.  We study this class of problems by modeling a
+stochastic process via a variant of a hidden Markov model, and specify the
+event sequences of interest as a regular language, developing a vocabulary of
+`mutators' that enable sophisticated requirements to be expressed.  Under
+different suppositions about the information gleaned about the event model, we
+formulate and solve different planning problems. The core underlying idea is
+the construction of a product between the event model and a specification
+automaton. Using this product, we compute a policy that minimizes the expected number of steps to reach a goal state.
+We introduce a general algorithm for this problem as well as several more efficient algorithms for important special cases.
+The paper reports and compares performance metrics by drawing on
+some small case studies analyzed in depth in simulation. 
+Specifically, we study the effect of the robot's observation model on the average time required for the robot to record a desired story. We also compare our algorithm with a baseline greedy algorithm, showing that our algorithm outperforms the greedy algorithm in terms of the average time to record a desired story.
+In addition, our experiments show that the proposed algorithms for the special inputs of the problem are more efficient than the general algorithm.
+<h3>Download</h3>
+<!--
+<a onClick="javascript: _gaq.push(['_trackPageview', '']);"  href="https://arxiv.org/pdf/2103.07029.pdf"> 
+-->
+<!--<a target="_blank" href="https://ieeexplore.ieee.org/document/8460507"> -->
+<!--
+ <img src="pdf.png" border=0>
+</a>
+-->
+
+<h3>BibTeX</h3>
+<pre>
+@inproceedings{RahShelOkan2021,
+  title        = {Planning to Chronicle: Optimal Policies for Narrative Observation of Unpredictable Events},
+  author       = {Hazhar Rahmani, Dylan A. Shell, Jason M. O'Kane},
+  booktitle    = {Preprint},
+  year	       = {2021},
+  note	       = {}
+}
+
+</pre>
+<div align=right>
+<a href="index.html">Hazhar's home page</a><br>
+</div>
+<hr>
+</font></i></div>
+</body>
+</html>
+
