@@ -10,24 +10,30 @@
   gtag('config', 'G-FMPS3C294H');
 </script>
 <title>Tractable Planning for Coordinated Story Capture: Sequential Stochastic Decoupling</title>
-<link rel="stylesheet" href="defaultstyle.css" type="text/css">
+<link rel="stylesheet" href="paperstyle.css" type="text/css">
 </head>
 <body>
 <h2>Tractable Planning for Coordinated Story Capture: Sequential Stochastic Decoupling</h2>
-Diptanil Chaudhuri, Hazhar Rahmani,  Dylan A. Shell, Jason M. O'Kane<br>To appear in <i>International Symposium on Distributed Autonomous Robotic Systems</i>, 2021.
+Diptanil Chaudhuri, Hazhar Rahmani,  Dylan A. Shell, Jason M. O'Kane<br>In <i>Proc. International Symposium on Distributed Autonomous Robotic Systems</i>, 2021.
 <h3>Abstract</h3>
 We consider the problem of deploying robots to observe the evolution of a stochastic process in order to output a sequence of observations that fit some given specification. This problem often arises in contexts such as event reporting, situation depiction, and automated narrative generation. The paper extends our prior work by formulating and examining the multi-robot case: a team of robots move about, each recording what they observe, and, if they manage to capture some event, communicating that fact with the group.  In the end, all events from all the robots are collated to provide a cumulative output.  A plan is used to decide what each robot will attempt to capture next, based on the state of the world and the events that have been captured (collectively) so far. This paper focuses on the question of how to compute effective multi-robot plans. A monolithic treatment, involving the optimal selection of joint choices, i.e., choosing the next elements to attempt to capture by all robots, is formulated where costs are minimized in an expected sense.  Since such plans are prohibitive to compute, variants based on an approximation scheme based on solving a sequence of individual planning problems are then introduced.  This scheme sacrifices some solution quality but requires far less computational expense; we show this permits one to scale to greater numbers of robots. 
+
+<p><center>
+<!-- <video style="width:600px; max-width:80%" src="RahOKa20b.mp4" controls></video> -->
+<iframe width="600px" height="400px" src="https://www.youtube.com/embed/tp3dz0_vQTw" > </iframe>
+</center></p>
+
 <h3>Download</h3>
-<a onClick="javascript: _gaq.push(['_trackPageview', '']);"  href="papers/coordinatedStoryCaptureDARS2021.pdf"> 
+<a onClick="javascript: _gaq.push(['_trackPageview', '']);"  href="coordinatedStoryCaptureDARS2021.pdf"> 
 <!--<a target="_blank" href="https://ieeexplore.ieee.org/document/8460507"> -->
-<img src="img/pdf.png" border=0>
+<img src="pdf.png" border=0>
 </a>
 <h3>BibTeX</h3>
 <pre>
 @inproceedings{RahOKa18,
   title        = {Tractable Planning for Coordinated Story Capture: Sequential Stochastic Decoupling},
   author       = {Diptanil Chaudhuri, Hazhar Rahmani,  Dylan A. Shell, Jason M. O'Kane},
-  booktitle    = {To appear in International Symposium on Distributed Autonomous Robotic Systems},
+  booktitle    = {International Symposium on Distributed Autonomous Robotic Systems},
   year	       = {2021},
   note	       = {}
 }
