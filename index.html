@@ -16,6 +16,38 @@
 <title>Hazhar Rahmani</title>
 <link href="defaultstyle.css" rel="stylesheet" media="screen" />
 
+	<style>
+.ul_menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+.li_menu {
+  float: left;
+}
+
+.li_menu a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li_menu a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.li_menu a.active {
+  color: white;
+  background-color: #0384fc;
+}
+</style>
+
 </head>
 
 <body>
@@ -64,11 +96,14 @@
         	</div>
 
 		<div>
-		<p> <a href="index.html">Home</a> 
-			<a href="projects.html"> Projects </a>  
-			<a href="publications.html"> Publications </a> 
-			<a href="services.html"> Services </a> 
-			<a href="prospectivestudents.html"> Prospective Students </a> 
+			<ul class="ul_menu">
+  <li class="li_menu"><a class="active" href="#home">Home</a></li>
+  <li class="li_menu"><a href="projects.html">Projects</a></li>
+  <li class="li_menu"><a href="publications.html">Publications</a></li>
+  <li class="li_menu"><a href="services.html">Services</a></li>
+<li class="li_menu"><a href="prospectivestudents.html">Prospective Students</a></li>
+</ul>
+
 		</div>
         	<p>
 		Welcome to my webpage!</br>
