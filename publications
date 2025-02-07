@@ -211,7 +211,12 @@
 					<li>
 					<b>Preprints</b>
 					<ul>
-
+						<li>
+						<b>Hazhar Rahmani</b> and Jie Fu.
+							<a href='learningPDFA.html'>Automata Learning of Preferences over Temporal Logic Formulas
+from Pairwise Comparisons</a>
+							2025. 
+                                                </li>
 						<li>
 						<b>Hazhar Rahmani</b>, Abhishek N. Kulkarni, Jie Fu.
 							<a href='prefPlanningPreprint.html'>Preference-Based Planning in Stochastic Environments: From  Partially-Ordered  Temporal Goals to Most Preferred Policies.</a>
@@ -219,12 +224,7 @@
                                                 </li>
 			
 
-						<li>
-						<b>Hazhar Rahmani</b> and Jie Fu.
-							<a href='learningPDFA.html'>Automata Learning of Preferences over Temporal Logic Formulas
-from Pairwise Comparisons</a>
-							2025. 
-                                                </li>
+
 						 
      
 					</ul>
