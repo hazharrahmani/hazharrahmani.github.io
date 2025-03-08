@@ -211,15 +211,15 @@
 					<li>
 					<b>Preprints</b>
 					<ul>
-
+						
 						<li>
 						<b>Hazhar Rahmani</b>, Mukulika Ghosh, and Syed Md Hasnayeen.
-							<a href='learningPDFA.html'>Automata Learning of Preferences over Temporal Logic Formulas from Pairwise Comparisons</a>
+							<a href='sensorDeceptionForDecoyMisleading.html'>Optimal sensor deception in stochastic environments with partial observability to mislead a robot to a decoy goal</a>
 							2025. 
                                                 </li>
 						<li>
 						<b>Hazhar Rahmani</b> and Jie Fu.
-							<a href='sensorDeceptionForDecoyMisleading.html'>Optimal sensor deception in stochastic environments with partial observability to mislead a robot to a decoy goal</a>
+							<a href='learningPDFA.html'>Automata Learning of Preferences over Temporal Logic Formulas from Pairwise Comparisons</a>
 							2025. 
                                                 </li>
 						<li>
@@ -227,11 +227,6 @@
 							<a href='prefPlanningPreprint.html'>Preference-Based Planning in Stochastic Environments: From  Partially-Ordered  Temporal Goals to Most Preferred Policies.</a>
 							2024. 
                                                 </li>
-			
-
-
-						 
-     
 					</ul>
  					</li>
 					</ul>
