@@ -105,6 +105,13 @@
 					<li>
 					<b>Journal Articles</b>
 					<ul>
+
+					<li>
+						<b>Hazhar Rahmani</b>, Abhishek N. Kulkarni, Jie Fu.
+							<a href='prefPlanningPreprint.html'>Preference-Based Probabilistic Planning with Partially-Ordered Temporal Goals.</a>
+							<i>Automatica,</i> 2026, to appear. 
+                         </li>
+
 						<li>
 						<b>Hazhar Rahmani</b>, Dylan A. Shell, Jason M. O'Kane. 
 							<a href='Planning2ChronicleIJRR.html'>Planning to Chronicle: Optimal Policies for Narrative Observation of Unpredictable Events.</a>
@@ -221,11 +228,6 @@
 						<b>Hazhar Rahmani</b> and Jie Fu.
 							<a href='learningPDFA.html'>Automata Learning of Preferences over Temporal Logic Formulas from Pairwise Comparisons</a>
 							2025. 
-                                                </li>
-						<li>
-						<b>Hazhar Rahmani</b>, Abhishek N. Kulkarni, Jie Fu.
-							<a href='prefPlanningPreprint.html'>Preference-Based Planning in Stochastic Environments: From  Partially-Ordered  Temporal Goals to Most Preferred Policies.</a>
-							2024. 
                                                 </li>
 					</ul>
  					</li>
